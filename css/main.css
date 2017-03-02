@@ -312,6 +312,11 @@ nav ul li a {
 nav ul li.current a {
     background : #845b12;
 }
+img.watch {
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
+}
 }
 
 @media only screen and (max-width: 600px) {
