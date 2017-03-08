@@ -49,10 +49,12 @@ hr {
 }
 
 h1 {
-    float: right;
-    padding-right: 20px;
-    padding-bottom: 20px;
+    
     padding-top: 0px;
+    color: #fff;
+    position: absolute;
+    top: 450px;
+    right: 100px;
 }
 
 /*
@@ -299,6 +301,17 @@ background-repeat: repeat-x;
 }
 /*-------NAV PHONE--------*/
 @media only screen and (max-width: 600px) {
+
+h1 {
+    
+    padding-top: 0px;
+    color: #fff;
+    position: absolute;
+    top: 550px;
+    right: 50px;
+    font-size: 90%;
+}
+
 nav {
     background-color: #a07113;
 }
