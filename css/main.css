@@ -337,14 +337,34 @@ padding-bottom: 300px;
     padding-top: 300px;
         text-align : center;
         
-    }}
+    }
+.feature_home{
+    width:200px;
+    height:50px;
+    position: absolute;
+    right: 25px;
+    top: 450px;
+    display:block;
+    background-position:center center;
+    background-size:100%;
+    border-radius: 15px;
+}
+
+.feature_button{
+   top: 15px;
+   left: 60px;
+    position:absolute;
+    color: #fff;
+   font-weight: bolder;
+}
+}
 /*-------NAV STUFF DESKTOP--------*/
 
 @media only screen and (min-width: 601px) {
 nav {
 background-color: #a07113;
 color : #ffffff;
-font-family : 'Exo', sans-serif;
+font-family: 'Open Sans', sans-serif;
 text-align : center;
 width: 100%;
 display: block;
@@ -384,9 +404,30 @@ color : #ffffff;
 nav ul li.Logo {
     float: right;
     display: inline-block;
-    font-weight: bold;
+    font-weight: lighter;
     padding-right: 15px;
-    font-family: 'Russo-One';
+    font-family: 'Days One', sans-serif;
+}
+.feature_home{
+    width:250px;
+    height:50px;
+    position: absolute;
+    right: 150px;
+    top: 250px;
+    display:block;
+    background-position:center center;
+    background-size:100%;
+    border-radius: 15px;
+
+
+
+}
+.feature_button{
+   top: 15px;
+   left: 85px;
+    position:absolute;
+    color: #fff;
+   font-weight: bolder;
 }
 
 }
