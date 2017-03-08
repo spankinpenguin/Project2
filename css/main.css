@@ -9,6 +9,7 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
 
 html {
     color: #222;
@@ -45,6 +46,13 @@ hr {
     border-top: 1px solid #ccc;
     margin: 1em 0;
     padding: 0;
+}
+
+h1 {
+    float: right;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 0px;
 }
 
 /*
@@ -266,6 +274,7 @@ textarea {
 
     img {
         max-width: 100% !important;
+        max-height: 100%;
     }
 
     p,
@@ -370,6 +379,14 @@ color: #ffffff;
 nav ul li a:hover {
 background-color : #845b12;
 color : #ffffff;
+}
+
+nav ul li.Logo {
+    float: right;
+    display: inline-block;
+    font-weight: bold;
+    padding-right: 15px;
+    font-family: 'Russo-One';
 }
 
 }
